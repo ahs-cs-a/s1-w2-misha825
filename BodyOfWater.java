@@ -18,8 +18,8 @@ public class BodyOfWater {
 
 
 
-    public void setAverageD(int ld){
-        largestD = ld;
+    public void setAverageD(int ad){
+        largestD = ad;
     }
 
     public void setName(String n){

@@ -4,7 +4,7 @@ public class BodyOfWaterMain {
         b.setName("Pacific Ocean");
         b.setAverageD(1000);
         System.out.println(b.getName());
-        System.out.println(b.getAverageD());
+        System.out.println(b.getAverageD() + "ft");
     }
 
     
