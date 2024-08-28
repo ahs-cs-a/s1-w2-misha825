@@ -16,6 +16,11 @@ public class BodyOfWater {
         return averageD;
     }
 
+    public boolean getSaltWater(){
+        return isSaltWater;
+    }
+
+    
     public int getLargestD(){
         return largestD;
     }
@@ -24,7 +29,7 @@ public class BodyOfWater {
         largestD = ld;
     }
 
-    public void setSaltWater(boolean asw){
+    public void setSaltWater(boolean sw){
         isSaltWater = sw;
     }
 
@@ -32,8 +37,8 @@ public class BodyOfWater {
         name = n;
     }
 
-    public void setName(String n){
-        name = n;
+    public void setAverageD(int ad){
+        averageD = ad;
     }
 
     public BodyOfWater(String n, int ld, int ad, boolean sw){
